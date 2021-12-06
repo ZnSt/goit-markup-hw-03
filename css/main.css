@@ -35,7 +35,7 @@ p {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* Шапка сайта */
@@ -46,12 +46,14 @@ p {
 
 .logo {
   color: #000000;
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+
   margin-right: 93px;
 }
 .blue {
@@ -65,7 +67,6 @@ p {
 
 .site-nav {
   display: flex;
-  /* margin-right: 331px; */
 }
 
 .site-nav .item + .item {
@@ -122,6 +123,7 @@ button {
 
 .contacts .link {
   color: var(--secondary-text-color);
+
   font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
@@ -136,6 +138,7 @@ button {
 /* Bg */
 .bg-title {
   color: var(--primary-white-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -143,13 +146,16 @@ button {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   margin-top: 0px;
   margin-bottom: 30px;
 }
 .bg {
+  background-color: #2f303a;
+
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #2f303a;
+
   text-align: center;
 }
 
@@ -165,6 +171,7 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
+
   padding: 10px 32px;
   min-width: 200px;
   border-color: transparent;
@@ -182,25 +189,30 @@ button {
 }
 .section-title {
   color: var(--secondary-text-color);
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .peculiarities-title {
   color: var(--primary-text-color);
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   margin-top: 0px;
   margin-bottom: 10px;
 }
 .peculiarities {
   padding-top: 94px;
+
   background-color: #ffffff;
 }
 .title > .item + .item {
@@ -215,6 +227,7 @@ button {
 .work {
   background-color: #ffffff;
   color: var(--primary-text-color);
+
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -226,18 +239,21 @@ button {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
   margin-top: 0px;
   margin-bottom: 50px;
 }
 /* Секция наша команда */
 .team-title {
   color: var(--primary-text-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -245,18 +261,22 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+
   color: var(--secondary-text-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
   margin-bottom: 30px;
 }
 .leader-title > .item {
   text-align: center;
   margin-right: 30px;
+
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -267,11 +287,13 @@ button {
 }
 .team {
   background-color: #f5f4fa;
+
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-your {
   color: var(--primary-text-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -279,6 +301,7 @@ button {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -286,6 +309,7 @@ button {
 
 .logo-second {
   color: #000000;
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -295,25 +319,30 @@ button {
 }
 .foot {
   background-color: #2f303a;
+
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .foot-title {
   color: var(--primary-white-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   margin-top: 20px;
   margin-bottom: 9px;
 }
 
 .colour {
   color: var(--contact-color);
+
   display: flex;
   flex-direction: column;
+  align-items: baseline;
 }
 
 .colour .link:hover,
@@ -322,6 +351,7 @@ button {
 }
 .colour .link {
   color: var(--contact-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
