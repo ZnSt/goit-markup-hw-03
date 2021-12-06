@@ -122,7 +122,7 @@ button {
 
 .contacts .link {
   color: var(--secondary-text-color);
-  font-weight: 500;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -167,7 +167,7 @@ button {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
-  border-color: var(--accent-color);
+  border-color: transparent;
 }
 
 /* Секция особенности */
@@ -312,6 +312,8 @@ button {
 
 .colour {
   color: var(--contact-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .colour .link:hover,
@@ -328,12 +330,13 @@ button {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
+.colour > .link {
+  margin-bottom: 9px;
+}
+.colour > .link:last-child {
+  margin-bottom: 0;
+}
 .footer-container {
   align-items: baseline;
   display: flex;
-}
-.foot-container {
-  display: flex;
-  flex-direction: column;
 }
