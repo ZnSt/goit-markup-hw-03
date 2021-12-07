@@ -35,7 +35,11 @@ ul {
   padding-right: 15px;
   /* outline: 2px solid tomato; */
 }
-
+.header {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
 /* Шапка сайта */
 .main {
   display: flex;
@@ -43,13 +47,12 @@ ul {
 }
 .flex-nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .logo {
   color: #000000;
 
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -91,6 +94,7 @@ ul {
 }
 
 /* Контакты */
+
 .contacts {
   display: flex;
   margin-left: auto;
@@ -175,11 +179,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
-  margin-right: 24px;
-  margin-left: 24px;
 }
 .text-title {
   color: var(--secondary-text-color);
@@ -189,11 +190,14 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
   margin-top: 0;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+}
+.main-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .section-padding {
