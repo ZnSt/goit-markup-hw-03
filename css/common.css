@@ -142,6 +142,7 @@ ul {
 
   display: inline-block;
   border-color: transparent;
+  cursor: pointer;
 }
 .blue-button .link:hover,
 .blue-button .link:focus {
