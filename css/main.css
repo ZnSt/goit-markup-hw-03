@@ -163,6 +163,8 @@ button {
   text-align: center;
 }
 
+/* Overlay */
+
 /* Button */
 .primary-button {
   color: var(--primary-white-color);
